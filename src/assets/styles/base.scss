@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@600&display=swap');
+
+/* _variables.scss */
+
+$hue-color: 242;
+
+
+/* RGB Color Mode (for demo purposes) */
+$skin-color: #a600ff;
+$title-color: #fff;
+$text-color: #fff;
+$body-color: #fff;
+$box-color: #e66f82;
+
+/* Font and Typography */
+$body-font: 'Poppins', sans-serif;
+
+$biggest-font-size: 3rem;
+$h1-font-size: 2.25rem;
+$h2-font-size: 1.5rem;
+$h3-font-size: 1.25rem;
+$normal-font-size: 1rem;
+$small-font-size: .875rem;
+$smaller-font-size: .813rem;
+
+/* Font Weight */
+$font-medium: 500;
+$font-bold: 600;
+
+/* Margins Bottom */
+$mb-0-25: .25rem;
+$mb-0-5: .5rem;
+$mb-0-75: .75rem;
+$mb-1: 1rem;
+$mb-1-5: 1.5rem;
+$mb-2: 2rem;
+$mb-2-5: 2.5rem;
+$mb-3: 3rem;
+
+/* Z Index */
+$z-fixed: 10;
+$z-modal: 100;
+
+.section{
+  padding: 6.5rem 0 2rem;
+}
+.section__title{
+  text-align: center;
+  font-size: $h1-font-size;
+  margin-bottom: $normal-font-size;
+
+}
+/*--------Variables-------*/
+$green-color: #6cff8d;
+$dark-green-color: #6cff8c7a;
+$red-color:#a600ff;
+$blue-color:#2196f3;
+$yellow-color:#500182;
+$darkish-blue:#00002a;
+$box-shadow-blue1:rgba(255, 255, 255, 0.266);
+$box-shadow-blue2:rgba(255, 255, 255, 0.613);
+
+.section__title::before{
+  content: attr(data-heading);
+  display:block;
+  font-size: $normal-font-size;
+  font-weight: $font-medium;
+  color: $skin-color;
+}
+/*=============== LAYOUT ===============*/
+.container{
+  max-width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid{
+  display: grid;
+}
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+  &::after,
+  &::before{
+    box-sizing: border-box;
+  }
+  scroll-behavior: smooth;
+}
+html,
+body{
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  background-color: $darkish-blue;
+  -webkit-font-smoothing:antialiased;
+  z-index: 0;
+  height: 100vh;
+}
+button,
+input,
+textarea,
+select{
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  overflow-wrap: break-word;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+ul{
+  list-style: none;
+}
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+}
+
+
+.section{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  overflow: hidden;
+  min-height: 100vh;
+  padding-top: 1rem;
+  @media (min-width: 650px) {
+    padding-left: 5rem;
+  padding-right: 5rem;
+  }
+  &__header{
+    &-title{
+      font-weight: 400;
+      font-size: 17px;
+      color: #500182;
+    }
+    &-subtitle{
+      font-size: 27px;
+      font-weight: 700;
+    }
+  }
+}
+.section__title{
+  color: #fff;
+}
+.section__header-subtitle{
+  color: #fff;
+}

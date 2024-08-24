@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@600&display=swap");
+/* _variables.scss */
+/* RGB Color Mode (for demo purposes) */
+/* Font and Typography */
+/* Font Weight */
+/* Margins Bottom */
+/* Z Index */
+.section {
+  padding: 6.5rem 0 2rem;
+}
+
+.section__title {
+  text-align: center;
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+}
+
+/*--------Variables-------*/
+.section__title::before {
+  content: attr(data-heading);
+  display: block;
+  font-size: 1rem;
+  font-weight: 500;
+  color: #a600ff;
+}
+
+/*=============== LAYOUT ===============*/
+.container {
+  max-width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*::after, *::before {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  background-color: #00002a;
+  -webkit-font-smoothing: antialiased;
+  z-index: 0;
+  height: 100vh;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img,
+video,
+canvas,
+svg {
+  max-width: 100%;
+}
+
+.section {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  overflow: hidden;
+  min-height: 100vh;
+  padding-top: 1rem;
+}
+@media (min-width: 650px) {
+  .section {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+.section__header-title {
+  font-weight: 400;
+  font-size: 17px;
+  color: #500182;
+}
+.section__header-subtitle {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.section__title {
+  color: #fff;
+}
+
+.section__header-subtitle {
+  color: #fff;
+}
+
+/*# sourceMappingURL=/base.a3883547.css.map */
