@@ -1,4 +1,4 @@
-# [Ahmed Mohamed Abd El Hamid Ali] - MERN Stack Developer
+# Ahmed Mohamed Abd El Hamid Ali - MERN Stack Developer
 
 Welcome to my GitHub portfolio! I’m a MERN stack developer dedicated to creating dynamic and efficient web applications. Below is a summary of my skills and how you can connect with me.
 
