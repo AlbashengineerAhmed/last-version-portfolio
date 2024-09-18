@@ -15,7 +15,8 @@
     "defaults"
   ],
   "devDependencies": {
-    "sass": "^1.66.1"
+    "sass": "^1.66.1",
+    "parcel": "^1.12.5"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.8",
