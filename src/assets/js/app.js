@@ -27,7 +27,8 @@ let barInterval = setInterval(()=>{
     })
     gsap.to(".loading__box", {
       duration: 1,
-      height:"500px",
+      height:"340px",
+      width:"340px",
       borderRadius:"50%"
     })
     gsap.to(".loading__svg", {
@@ -183,4 +184,3 @@ questions.map((question) =>{
     question.classList.toggle("open");
   });
 });
-

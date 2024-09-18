@@ -54,6 +54,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    @media (max-width:650px) {
+      flex-direction: column;
+      padding: 10px 0px;
+    }
     @media (max-width: 350px){
       &{
         font-size: 17px;
