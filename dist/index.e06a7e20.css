@@ -1,0 +1,100 @@
+@import "https://fonts.googleapis.com/css2?family=Orbitron:wght@500&family=Poppins:wght@600&display=swap";
+.section {
+  padding: 6.5rem 0 2rem;
+}
+
+.section__title {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 2.25rem;
+}
+
+.section__title:before {
+  content: attr(data-heading);
+  color: #a600ff;
+  font-size: 1rem;
+  font-weight: 500;
+  display: block;
+}
+
+.container {
+  max-width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid {
+  display: grid;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  margin: 0;
+}
+
+:after, :before {
+  box-sizing: border-box;
+}
+
+html, body {
+  -webkit-font-smoothing: antialiased;
+  z-index: 0;
+  background-color: #00002a;
+  height: 100vh;
+  font-family: Poppins, sans-serif;
+  line-height: 1.5;
+  position: relative;
+}
+
+button, input, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+img, video, canvas, svg {
+  max-width: 100%;
+}
+
+.section {
+  min-height: 100vh;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  overflow: hidden;
+}
+
+@media (width >= 650px) {
+  .section {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+.section__header-title {
+  color: #500182;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.section__header-subtitle {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.section__title, .section__header-subtitle {
+  color: #fff;
+}
+/*# sourceMappingURL=index.e06a7e20.css.map */

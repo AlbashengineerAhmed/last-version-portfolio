@@ -49,6 +49,8 @@
   }
   &__links {
     padding-top: 3rem;
+    position: relative;
+    z-index: 15;
     button {
       &:before {
         background-color: #ffa600;
